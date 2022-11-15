@@ -1,0 +1,439 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Reset Shop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    background-image: url("papel.webp");
+}
+
+
+  .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+
+  h5 {
+    font-size: 24px;
+    line-height: 1.375em;
+    color: #d80c0c;
+    font-weight: 400;
+    margin-bottom: 30px;
+    position: relative;
+  left: 235px;
+  top: px;
+  }  
+  .jumbotron {
+    background-color: #954ad3;
+    color: rgb(0, 0, 0);
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #954ad3;
+    font-size: 50px;
+  }
+  .logo {
+    color: #954ad3;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #954ad3;
+  }
+  .carousel-indicators li {
+    border-color: #954ad3;
+  }
+  .carousel-indicators li.active {
+    background-color: #954ad3;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+
+  .checked {
+  color: orange;
+  position: relative;
+  left: 50px;
+  top: 5px;
+  
+}
+
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #954ad3; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #954ad3;
+    background-color: #fff !important;
+    color: #954ad3;
+  }
+  .panel-heading {
+    color: rgb(7, 5, 5) !important;
+    background-color: #954ad3 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #954ad3;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #8f3bd4;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: rgb(0, 0, 0) !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #6a16af !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  h2 {
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+  font-size:17px;
+ 
+ 
+ 
+}
+
+div.a {
+  line-height: 80%;
+  color:green;
+ 
+}
+
+div.b {
+  line-height: 1.6;
+  color:black;
+}
+
+
+ h3 {
+  text-decoration-color: black;
+  color:green;
+ }
+
+  footer .glyphicon {
+    font-size:20px;
+    margin-bottom: 20px;
+    color: #954ad3;
+  }
+
+  
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+ }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-header" href="#myPage"><img src="resetart.svg" alt="resetart" width="200"  style="object-position:-15px 6px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">INICIO</a></li>
+        <li><a href="#mais vendido">MAIS VENDIDOS</a></li>
+        <li><a href="#oferta">OFERTAS</a></li>
+        <li><a href="#popular">POPULARES</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center" style="object-position:18px 6px">
+  <h1>RESET SHOP</h1> 
+  <p>Os melhores produtos para você</p> 
+</div>
+ 
+
+<div class="container" id="mais vendido" >    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center">MAIS VENDIDO</div>
+        <div class="panel-body"><img src="maleta.jpg" width="100%" height="323" top="100"></div>
+        <div class="panel-footer" style="text-align:center">Kiboule 71 pçs/conjunto Kit de Desenho Profissional Lápis de Desenho Arte Esboço Suprimentos de Pintura com Bolsa de Transporte</div>
+        <div class="panel-footer" style="text-align:center">
+          <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$249,99</div>
+          <div class="a" style="font-size:25px">R$145,00,</div>
+          <div class="b" style="font-size:17px">Em até 2x R$ 72,50 sem juros</div>
+          <a href="https://amzn.to/3yCwZBQ"><button class="btn btn-lg">Comprar</button></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="item">
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading" style="text-align:center">MAIS VENDIDO</div>
+        <div class="panel-body"><img src="5sfsafsaf.jpg" width="100%" height="274" top="100"></div>
+        <div class="panel-footer" style="text-align:center">Domary 72 Kit de arte para lápis de aquarela profissional definido Lápis de cor solúvel em água com 1 * caneta-tinteiro / 1 * apontador para alunos Crianças Decoração de festa em casa Projetos de bricolagem presente presente</div>
+        <div class="panel-footer" style="text-align:center">
+          <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$249,99</div>
+          <div class="a" style="font-size:25px">R$174,99</div>
+          <div class="b" style="font-size:14px">Em até 3x R$ 58,33 sem juros</div>
+          <a href="https://amzn.to/3EtMajZ"><button class="btn btn-lg">Comprar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading" style="text-align:center">MAIS VENDIDO</div>
+        <div class="panel-body"><img src="maleta 4.jpg" width="100%" height="270" top="100"></div>
+        <div class="panel-footer">Kiboule 72 cores pintura a óleo desenho lápis lápis conjunto núcleo macio à base de óleo com saco de armazenamento suprimentos de arte para estudantes crianças crianças adultos ast pintura colorir es
+          <div class="panel-footer" style="text-align:center">
+            <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$349,98</div>
+            <div class="a" style="font-size:25px">R$272,99</div>
+            <div class="b" style="font-size:17px">Em até 5x R$ 54,63 sem juros</div>
+          <a href="https://amzn.to/3eHVZAB"><button class="btn btn-lg">Comprar</button></a>
+        </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center" id="oferta">OFERTA</div>
+        <div class="panel-body"><img src="mesa digitalizadora.jpg" width="100%" height="323" top="100"></div>
+        <div class="panel-footer" style="text-align:center">XP-PEN Artist12 11.6 Inch FHD Mesa Digitalizadora Pen Display Graphic Monitor with PN06 Battery-Free Caneta Multi-Function Luva 8192 Níveis de Pressão</div>
+        <div class="panel-footer" style="text-align:center">
+          <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$2.839,90</div>
+          <div class="a" style="font-size:25px">R$2.000,00,</div>
+          <div class="b" style="font-size:17px">Em até 10x R$ 200,00 sem juros</div>
+          <a href="https://amzn.to/3VzuFFc"><button class="btn btn-lg">Comprar</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading" style="text-align:center">OFERTA</div>
+        <div class="panel-body"><img src="mesa digitalizadora 2.jpg" width="100%" height="378" top="100"></div>
+        <div class="panel-footer" style="text-align:center">MESA DIGITALIZADORA HUION INSPIROY HS64</div>
+        <div class="panel-footer" style="text-align:center">
+          <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$499,90</div>
+          <div class="a" style="font-size:25px">R$215,90</div>
+          <div class="b" style="font-size:17px">Em até 4x R$ 53,99 sem juros</div>
+          <a href="https://amzn.to/3TvM2VX"><button class="btn btn-lg">Comprar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading" style="text-align:center">OFERTA</div>
+        <div class="panel-body"><img src="mesa digitalizadora 3.jpg" width="328" height="378" top="100"></div>
+        <div class="panel-footer">Mesa Digitalizadora Gaomon PD1161 11,6" com 8192 Níveis de Pressão Caneta Battery Free
+          <div class="panel-footer" style="text-align:center">
+            <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$2.599,90</div>
+            <div class="a" style="font-size:25px">R$1.899,00</div>
+            <div class="b" style="font-size:17px">Em até 10x R$ 189,90 sem juros</div>
+          <a href="https://amzn.to/3z8Dixh"><button class="btn btn-lg">Comprar</button></a>
+        </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading" style="text-align:center" id="popular">POPULAR</div>
+        <div class="panel-body"><img src="luva2.jpg" width="100%" height="350" top="100"></div>
+        <div class="panel-footer" style="text-align:center">Parblo PR-01 Luva de dois dedos para tablet desenho gráfico caixa de luz Tracing Light Pad</div>
+        <div class="panel-footer" style="text-align:center">
+          <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$249,99</div>
+          <div class="a" style="font-size:25px">R$158,00</div>
+          <div class="b" style="font-size:17px">Em até 3x R$ 52,68 sem juros</div>
+          <a href="https://amzn.to/3T8YYBg"><button class="btn btn-lg">Comprar</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="col-sm-4"> 
+        <div class="panel panel-danger">
+          <div class="panel-heading" style="text-align:center">POPULAR</div>
+          <div class="panel-body"><img src="canetas1.jpg" width="100%" height="297" top="100"></div>
+          <div class="panel-footer" style="text-align:center">Conjunto de Micro Canetas TWOHANDS, Canetas de Tinta Fineliner, Caneta de Pigmento, Desenho Técnico, Preto, Impermeável, Para Arte Aquarela, Sketching, Anime, Manga, Scrapbooking</div>
+          <div class="panel-footer" style="text-align:center">
+            <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$399,90</div>
+            <div class="a" style="font-size:25px">R$219,00</div>
+            <div class="b" style="font-size:17px">Em até 4x R$ 54,75 sem juros</div>
+            <a href="https://amzn.to/3eBSJH2"><button class="btn btn-lg">Comprar</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading" style="text-align:center">POPULAR</div>
+        <div class="panel-body"><img src="canetas 1.jpg" width="100%" height="297" top="100"></div>
+        <div class="panel-footer">Aibecy 60 Cores Marcadores Caneta Marcadora de Ponta Dupla Esboço Escrita Pintura Sublinhada Marcador Artista Desenhando Marcadores de Arte Dupla com Bolsa de Armazenamento Zip
+          <div class="panel-footer" style="text-align:center">
+            <div class="b" style="font-size:17px; text-decoration-line:line-through ">R$199,90</div>
+            <div class="a" style="font-size:25px">R$132,00</div>
+            <div class="b" style="font-size:17px">Em até 2x R$ 66,00 sem juros</div>
+          <a href="https://amzn.to/3EN9M3M"><button class="btn btn-lg">Comprar</button></a>
+    </div>
+  </div>
+</div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>Contato</p> 
+  <p>resetart027@gmail.com</p>   
+</footer>
+
+
+</body>
+</html>
+</style>
